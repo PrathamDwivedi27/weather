@@ -2,6 +2,7 @@ $height: 250px;
 
 .CurrentWeather {
   display: flex;
+  margin-right:40px;
 
   @media screen and (max-width: 745px) {
     flex-direction: column;
