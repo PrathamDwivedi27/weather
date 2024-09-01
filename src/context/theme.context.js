@@ -5,7 +5,7 @@ const THEME_KEY='theme';
 
 function ThemeProvider({children}){
 
-    const [dark,setDark]=useState(true);
+    const [dark,setDark]=useState(false);
 
     const saveThemeToLocalStorage=(theme)=>{
         localStorage.setItem(THEME_KEY,JSON.stringify(theme));
